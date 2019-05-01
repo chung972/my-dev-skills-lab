@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+}
+
+#content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
