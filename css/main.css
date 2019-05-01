@@ -19,9 +19,7 @@ h1{
     width: 400px;
     text-align: center;
 }
-/*
-#E16566 red for the remove button
-*/
+
 input {
     border: 3px solid #93C481;
     color: #FFB450;
@@ -40,5 +38,12 @@ li{
 
 ul{
     list-style: none;
+}
+
+span{
+    background-color: #E16566;
+    color: white;
+    padding: 3px;
+    margin: 15px 15px 15px 15px;
 }
 
