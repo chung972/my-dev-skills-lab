@@ -5,4 +5,25 @@
 body{
     height: 100vh;
     margin: 0;
+    border: 3px solid gray;
+}
+
+div {
+    border: 3px solid black;
+}
+
+h1{
+    background-color: #93C481;
+    color: white;
+    padding: 10px;
+    width: 400px;
+    text-align: center;
+}
+/*
+
+
+*/
+input, button {
+    border: 3px solid #93C481;
+    color: #93C481;
 }
