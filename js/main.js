@@ -8,12 +8,25 @@
  */
 
 // State Variables
-let $inputVal = $("input");
+let $inputVal, $skillElem
 
 // Event Listeners
 $("button").on("click", getInputText);
 
 // Functions
 function getInputText(){
-    alert("button pushed");
+    $inputVal = $("input").val();
+    // here, .val() is a GETTER
+    $("input").val("");     
+    // here, .val("") acts as a SETTER because we pass in an empty string
+    createElem($inputVal);
+}
+
+function createElem(str){
+    $skillElem = $(`<li>${str}</li>`);
+    addSkill($skillElem);
+}
+
+function addSkill(elem){
+    $("section ul").append(elem);
 }
